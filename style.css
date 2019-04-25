@@ -1,0 +1,125 @@
+.bad {
+    background-color: red;
+    border-style: double;
+}
+
+.good {
+    background-color: orange;
+    border-style: double;
+}
+
+.great {
+    background-color: green;
+    border-style: double;
+
+}
+
+body {
+   
+    background-color: #15242F;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+#creation_window {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: space-around;
+
+}
+
+.editorWindow {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#insert_buttons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px 40px 10px;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+.text-area{
+    display: flex;
+    flex-direction: row;
+}ul#insert_buttons button > *{
+    display: flex;
+    align-content: space-around;
+}
+
+
+
+#h1,
+#h2,
+#h3,
+#ol,
+#p,
+#ul,
+#li,
+#img {
+    color: white;
+
+
+}
+
+#h1,
+#h2,
+#h3,
+#ol,
+#p,
+#ul,
+#li,
+#img {
+    background: #19a3ff;
+    background-image: -webkit-linear-gradient(top, #19a3ff, #2980b9);
+    background-image: -moz-linear-gradient(top, #19a3ff, #2980b9);
+    background-image: -ms-linear-gradient(top, #19a3ff, #2980b9);
+    background-image: -o-linear-gradient(top, #19a3ff, #2980b9);
+    background-image: linear-gradient(to bottom, #19a3ff, #2980b9);
+    -webkit-border-radius: 34;
+    -moz-border-radius: 34;
+    border-radius: 20px;
+    font-family: Arial;
+    color: black;
+    font-size: 12px;
+    padding: 8px 30px 8px 25px;
+    text-decoration: none;
+    margin-top: 10px;
+    
+    
+}
+
+h1,
+h2,
+h3,
+li {
+    color: white;
+}
+
+#exercise_elements{
+    margin-left: 40px;
+
+}
+
+textarea{
+
+    resize: none;
+}
+
+ul#exercise_elements{
+    list-style: none;
+}
+
+#created_elements{
+    list-style: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="editor">
+        <ul id="insert_buttons"></ul>
+
+        <div id="creation_window">
+
+            <div class="wrapper">
+
+                <textarea name="element_content" id="element_content" cols="40" rows="10"></textarea>
+                <div id="element_preview"></div>
+                <button id="cancel_new">Cancel</button>
+                <button id="add_new">Add</button>
+                <ul id="created_elements"></ul>
+
+            </div>
+
+            <div class="exercise">
+                    <ul id="exercise_elements">
+            
+                        <!-- Write your exercise here -->
+                        <!-- Be sure to wrap every element in an <li> tag-->
+                        <li>
+                            <h1>Hello World</h1>
+                        </li>
+                        <li>
+                            <h2>Hello City</h2>
+                        </li>
+                        <li>
+                            <h3>Jaime is from winterslag</h3>
+                        </li>
+                        <li>
+                            <p>cats are super cute</p>
+                        </li>
+                        <li>
+                            <ol>
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Milk</li>
+                            </ol>
+                        </li>
+                        
+                        <li>
+                            <ul>
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Milk</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
